@@ -4,7 +4,6 @@
 ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange?style=flat-square&logo=jupyter)
 ![Tableau](https://img.shields.io/badge/Tableau-Dashboard-lightblue?style=flat-square&logo=tableau)
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-ML-green?style=flat-square&logo=scikit-learn)
-![License](https://img.shields.io/badge/License-MIT-lightgrey?style=flat-square)
 
 > An end-to-end fraud detection pipeline combining machine learning classification models with an interactive Tableau dashboard for visual analysis and business insights.
 

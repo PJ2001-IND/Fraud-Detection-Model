@@ -183,10 +183,4 @@ Open `Fraud Detection.twb` in **Tableau Desktop** or upload it to **Tableau Publ
 
 ---
 
-## 📄 License
-
-This project is licensed under the MIT License.
-
----
-
 > ⭐ If you found this project useful, consider giving it a star!

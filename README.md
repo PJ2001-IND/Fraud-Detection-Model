@@ -7,7 +7,6 @@
 ![Apache Kafka](https://img.shields.io/badge/Apache-Kafka-231F20?style=flat-square&logo=apachekafka)
 ![PySpark](https://img.shields.io/badge/Apache-PySpark-E25A1C?style=flat-square&logo=apachespark)
 ![Tableau](https://img.shields.io/badge/Tableau-Dashboard-E97627?style=flat-square&logo=tableau)
-![License](https://img.shields.io/badge/License-Academic-lightgrey?style=flat-square)
 
 > An **end-to-end financial fraud detection pipeline** built on the 2023 European credit card transaction dataset — training and benchmarking four classification models (**Logistic Regression**, **Decision Tree**, **Random Forest**, and **XGBoost**) with **RandomizedSearchCV** hyperparameter tuning, and extending into a **real-time fraud detection system** using **Apache Kafka streaming**, **PySpark Structured Streaming**, and **automated email alerting**. A companion **Tableau workbook** (3 sheets) provides exploratory visual analysis of transaction amounts, class distribution, and feature correlations.
 

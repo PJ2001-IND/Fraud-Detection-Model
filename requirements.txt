@@ -1,0 +1,25 @@
+# Advanced Financial Fraud Detection Model — Python Dependencies
+
+# Core data handling
+pandas>=1.3.0
+numpy>=1.21.0
+
+# Visualisation
+matplotlib>=3.4.0
+seaborn>=0.11.0
+
+# Machine learning — classifiers, preprocessing, tuning, metrics
+scikit-learn>=1.0.0
+
+# Gradient boosting
+xgboost>=1.6.0
+
+# Real-time streaming — Kafka producer & admin
+kafka-python>=2.0.0
+
+# Real-time streaming — Spark Structured Streaming + Kafka source
+pyspark>=3.3.0
+
+# Notebook environment
+jupyter>=1.0.0
+ipykernel>=6.0.0

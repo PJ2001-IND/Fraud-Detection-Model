@@ -195,6 +195,7 @@ The companion workbook (`Fraud_Detection.twb`) connects directly to `creditcard_
 
 ## 💡 Key Insights
 
+- **All four classifiers are fit on the original unscaled `x_train`** — StandardScaler is computed in the notebook but is not applied during model fitting; the scaled arrays (`x_train_scaled`, `x_test_scaled`) are produced but not passed to any classifier
 - **28 PCA-transformed features (V1–V28)** anonymise raw transaction data for cardholder privacy — this makes feature engineering minimal and places the modelling burden on capturing latent structure within the PCA space alongside raw `Amount`
 - **StandardScaler normalisation** is applied before Logistic Regression — features on different scales would dominate gradient-based optimisation without it; tree-based models (Decision Tree, Random Forest, XGBoost) are trained on unscaled `x_train` directly, as they are invariant to monotonic feature transformations
 - **RandomizedSearchCV with 5-fold CV** over 20 iterations explores a 96-point hyperparameter space for XGBoost efficiently — `n_jobs=-1` parallelises the search across all available CPU cores for faster tuning
